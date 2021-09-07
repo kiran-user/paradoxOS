@@ -12,7 +12,7 @@ static bool print(const char* data, size_t length) {
 			return false;
 	return true;
 }
-<!--printf file is edited to check auto triggering-->
+<!--printf file is edited to check auto triggering or not-->
 int printf(const char* restrict format, ...) {
 	va_list parameters;
 	va_start(parameters, format);
